@@ -87,6 +87,12 @@ data.win.eventdata.commandLine: "ml_inference_alert"
 - "Implementation Document" (report/Wazuh_Adversarial_Lab_Implementation.pdf)
 
 ---
+## 📚 Documentation
+
+- [Scenario Story](docs/scenario-story.md)
+- [Incident Report](docs/incident-report.md)
+- [Threat Hunting Queries](docs/threat-hunting-queries.md)
+- [MITRE Mapping](docs/mitre-mapping.md)
 
 👤 Author
 
