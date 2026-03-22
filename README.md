@@ -94,6 +94,13 @@ data.win.eventdata.commandLine: "ml_inference_alert"
 - [Threat Hunting Queries](docs/threat-hunting-queries.md)
 - [MITRE Mapping](docs/mitre-mapping.md)
 
+## 📸 Screenshots
+
+![Simulation](screenshots/01-python-simulation.png)
+![Detection](screenshots/04-detection-100501.png)
+![Correlation](screenshots/05-correlation-100502.png)
+![Dashboard](screenshots/06-dashboard.png)
+
 👤 Author
 
 Nour Maghalawy
