@@ -94,12 +94,49 @@ data.win.eventdata.commandLine: "ml_inference_alert"
 - [Threat Hunting Queries](docs/threat-hunting-queries.md)
 - [MITRE Mapping](docs/mitre-mapping.md)
 
-## 📸 Screenshots
+## 📸 Lab Walkthrough
 
-![Simulation](screenshots/01-python-simulation.png)
-![Detection](screenshots/04-detection-100501.png)
-![Correlation](screenshots/05-correlation-100502.png)
-![Dashboard](screenshots/06-dashboard.png)
+---
+
+### 1️⃣ Python Simulation (Adversarial Event Generation)
+This step simulates adversarial ML behavior by generating abnormal inference logs.
+
+![Python Simulation](screenshots/01-python-simulation.png)
+
+---
+
+### 2️⃣ Windows Event Creation (Event Injection)
+Custom adversarial events are injected into Windows Event Log using PowerShell.
+
+![Event Creation](screenshots/02-event-creation.png)
+
+---
+
+### 3️⃣ Wazuh Logtest Validation
+The event is tested using Wazuh logtest to verify parsing and rule matching.
+
+![Logtest](screenshots/03-logtest.png)
+
+---
+
+### 4️⃣ Detection Rule Triggered (Rule 100501)
+Custom rule detects adversarial ML patterns inside Windows logs.
+
+![Detection Rule](screenshots/04-detection-100501.png)
+
+---
+
+### 5️⃣ Correlation Rule Triggered (Rule 100502)
+Multiple events are correlated to detect a potential attack campaign.
+
+![Correlation Rule](screenshots/05-correlation-100502.png)
+
+---
+
+### 6️⃣ SIEM Dashboard Visualization
+Final alerts are visualized inside Wazuh SIEM dashboard.
+
+![Dashboard](screenshots/06-dashboard.jpg)
 
 👤 Author
 
